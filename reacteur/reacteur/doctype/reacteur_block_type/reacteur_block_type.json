@@ -1,0 +1,100 @@
+{
+ "actions": [],
+ "autoname": "format:{identifier}@{version}",
+ "creation": "2024-01-02 18:41:43.725808",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_kwxa",
+  "identifier",
+  "version",
+  "tags",
+  "column_break_ddym",
+  "is_standard",
+  "module",
+  "section_break_nvof",
+  "slots",
+  "scripts"
+ ],
+ "fields": [
+  {
+   "fieldname": "version",
+   "fieldtype": "Data",
+   "label": "Version"
+  },
+  {
+   "description": "Comma separated list of tags.",
+   "fieldname": "tags",
+   "fieldtype": "Data",
+   "label": "Tags"
+  },
+  {
+   "fieldname": "slots",
+   "fieldtype": "Table",
+   "label": "Slots",
+   "options": "Reacteur Block Type Slot"
+  },
+  {
+   "fieldname": "scripts",
+   "fieldtype": "Table",
+   "label": "Scripts",
+   "options": "Reacteur Block Type Code"
+  },
+  {
+   "fieldname": "identifier",
+   "fieldtype": "Data",
+   "label": "Identifier"
+  },
+  {
+   "fieldname": "section_break_kwxa",
+   "fieldtype": "Section Break",
+   "hide_border": 1
+  },
+  {
+   "fieldname": "column_break_ddym",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_standard",
+   "fieldtype": "Check",
+   "label": "Is Standard"
+  },
+  {
+   "fieldname": "module",
+   "fieldtype": "Link",
+   "label": "Module",
+   "options": "Module Def"
+  },
+  {
+   "fieldname": "section_break_nvof",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-02 21:58:38.969550",
+ "modified_by": "Administrator",
+ "module": "Reacteur",
+ "name": "Reacteur Block Type",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

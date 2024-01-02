@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-02 18:34:47.075649",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "slot_name",
+  "label",
+  "accepts",
+  "preparation"
+ ],
+ "fields": [
+  {
+   "fieldname": "slot_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Slot Name"
+  },
+  {
+   "fieldname": "label",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Label"
+  },
+  {
+   "description": "Comma separated list of tags.",
+   "fieldname": "accepts",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Accepts"
+  },
+  {
+   "fieldname": "preparation",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Preparation",
+   "options": "Raw\nCallable Ref"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-01-02 18:43:14.434556",
+ "modified_by": "Administrator",
+ "module": "Reacteur",
+ "name": "Reacteur Block Type Slot",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

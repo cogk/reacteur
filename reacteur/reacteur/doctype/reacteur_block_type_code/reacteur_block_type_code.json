@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "autoname": "hash",
+ "creation": "2024-01-02 18:32:17.667628",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "lang",
+  "kind",
+  "code"
+ ],
+ "fields": [
+  {
+   "fieldname": "lang",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Language",
+   "options": "Python\nJavaScript"
+  },
+  {
+   "fieldname": "kind",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Kind",
+   "options": "Execution\nValidation"
+  },
+  {
+   "fieldname": "code",
+   "fieldtype": "Code",
+   "in_list_view": 1,
+   "label": "Code"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-01-02 18:43:33.520942",
+ "modified_by": "Administrator",
+ "module": "Reacteur",
+ "name": "Reacteur Block Type Code",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

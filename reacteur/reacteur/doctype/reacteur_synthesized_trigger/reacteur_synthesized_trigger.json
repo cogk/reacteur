@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-02 18:53:18.468095",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "trigger_name",
+  "trigger_key",
+  "reference_doctype",
+  "next_trigger_time"
+ ],
+ "fields": [
+  {
+   "fieldname": "trigger_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Trigger Name"
+  },
+  {
+   "fieldname": "reference_doctype",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Reference Doctype",
+   "options": "DocType"
+  },
+  {
+   "fieldname": "next_trigger_time",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Next Trigger Time"
+  },
+  {
+   "fieldname": "trigger_key",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Trigger Key"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-01-02 18:55:02.713658",
+ "modified_by": "Administrator",
+ "module": "Reacteur",
+ "name": "Reacteur Synthesized Trigger",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,70 @@
+{
+ "__unsaved": 1,
+ "creation": "2024-01-02 18:49:09.918454",
+ "docstatus": 0,
+ "doctype": "Reacteur Block Type",
+ "identifier": "core/actions",
+ "idx": 9,
+ "is_standard": 1,
+ "modified": "2024-01-02 22:26:55.835000",
+ "modified_by": "Administrator",
+ "module": "Reacteur",
+ "name": "core/actions@1.0.0",
+ "owner": "Administrator",
+ "scripts": [
+  {
+   "code": "# Check if trigger is known beforehand.\nok = bool(FLOW_INPUT and FLOW_INPUT.get(\"trigger_id\"))\n# Else re-check every trigger until one is found.\nok = ok or any(cond() for cond in triggers)\nif ok:\n\tfor action in actions:\n\t\taction()",
+   "creation": "2024-01-02 18:49:09.918454",
+   "docstatus": 0,
+   "doctype": "Reacteur Block Type Code",
+   "idx": 1,
+   "kind": "Execution",
+   "lang": "Python",
+   "modified": "2024-01-02 22:26:55.835000",
+   "modified_by": "Administrator",
+   "name": "942f41c21a",
+   "owner": "Administrator",
+   "parent": "core/actions@1.0.0",
+   "parentfield": "scripts",
+   "parenttype": "Reacteur Block Type"
+  }
+ ],
+ "slots": [
+  {
+   "accepts": "core#trigger",
+   "creation": "2024-01-02 18:49:09.918454",
+   "docstatus": 0,
+   "doctype": "Reacteur Block Type Slot",
+   "idx": 1,
+   "label": "Triggers",
+   "modified": "2024-01-02 22:26:55.835000",
+   "modified_by": "Administrator",
+   "name": "85775296ef",
+   "owner": "Administrator",
+   "parent": "core/actions@1.0.0",
+   "parentfield": "slots",
+   "parenttype": "Reacteur Block Type",
+   "preparation": "Callable Ref",
+   "slot_name": "triggers"
+  },
+  {
+   "accepts": "core#block",
+   "creation": "2024-01-02 18:49:09.918454",
+   "docstatus": 0,
+   "doctype": "Reacteur Block Type Slot",
+   "idx": 2,
+   "label": "Actions",
+   "modified": "2024-01-02 22:26:55.835000",
+   "modified_by": "Administrator",
+   "name": "4e11588b06",
+   "owner": "Administrator",
+   "parent": "core/actions@1.0.0",
+   "parentfield": "slots",
+   "parenttype": "Reacteur Block Type",
+   "preparation": "Callable Ref",
+   "slot_name": "actions"
+  }
+ ],
+ "tags": "core#root",
+ "version": "1.0.0"
+}
