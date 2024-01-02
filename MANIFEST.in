@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include reacteur *.css
+recursive-include reacteur *.csv
+recursive-include reacteur *.html
+recursive-include reacteur *.ico
+recursive-include reacteur *.js
+recursive-include reacteur *.json
+recursive-include reacteur *.md
+recursive-include reacteur *.png
+recursive-include reacteur *.py
+recursive-include reacteur *.svg
+recursive-include reacteur *.txt
+recursive-exclude reacteur *.pyc
