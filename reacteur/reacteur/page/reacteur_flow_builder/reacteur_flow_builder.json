@@ -1,0 +1,23 @@
+{
+ "content": null,
+ "creation": "2024-01-14 18:02:33.393588",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2024-01-14 18:02:33.393588",
+ "modified_by": "Administrator",
+ "module": "Reacteur",
+ "name": "reacteur-flow-builder",
+ "owner": "Administrator",
+ "page_name": "reacteur-flow-builder",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Reacteur Flow Builder"
+}
