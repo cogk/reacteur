@@ -1,0 +1,17 @@
+__pycache__
+.backportrc.json
+.DS_Store
+.idea/
+.vscode/
+.wnf-lang-status
+*.egg-info
+*.py~
+*.pyc
+*.swo
+*.swp
+*~
+conf.py
+dist/
+reacteur/public/dist
+reacteur/public/node_modules
+node_modules
