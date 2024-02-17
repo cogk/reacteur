@@ -66,16 +66,13 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
-@use "sass:math";
-@import "./vars";
-
 .node {
   background: black;
   border: 2px solid grey;
   border-radius: 10px;
   cursor: pointer;
   box-sizing: border-box;
-  width: $node-width;
+  width: 200px;
   height: auto;
   padding-bottom: 6px;
   position: relative;
@@ -123,19 +120,19 @@ export default defineComponent({
     display: inline-block;
     font-family: sans-serif;
     font-size: 14px;
-    margin: $socket-margin;
-    line-height: $socket-size;
+    margin: 8px;
+    line-height: 24px;
   }
 
   .input-control {
     z-index: 1;
-    width: calc(100% - #{$socket-size + 2*$socket-margin});
+    width: calc(100% - (24px + 2*8px));
     vertical-align: middle;
     display: inline-block;
   }
 
   .control {
-    padding: $socket-margin math.div($socket-size, 2) + $socket-margin;
+    padding: 8px (24px / 2) + 8px;
   }
 }
 </style>

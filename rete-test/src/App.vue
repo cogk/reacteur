@@ -6,7 +6,7 @@
 
 <script>
 import { defineComponent } from 'vue';
-import { createEditor } from './rete';
+import { createEditor } from './reacteur/index';
 
 export default defineComponent({
   name: 'App',
@@ -38,3 +38,4 @@ export default defineComponent({
   border: 3px solid #55b881;
 }
 </style>
+./reacteur

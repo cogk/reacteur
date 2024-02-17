@@ -9,15 +9,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@use "sass:math";
-@import "./vars";
-
 .socket {
   display: inline-block;
   cursor: pointer;
   border: 1px solid grey;
-  width: $socket-size;
-  height: $socket-size * 2;
+  width: 24px;
+  height: 24px * 2;
   vertical-align: middle;
   background: #fff;
   z-index: 2;
