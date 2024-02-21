@@ -1,0 +1,9 @@
+.color-mix {
+	--color-mix-1: rebeccapurple;
+	--color-mix-2: cyan;
+	--color-mix: 0.5;
+	background: linear-gradient(
+		var(--color-mix-2) calc(-1000000% * var(--color-mix)),
+		var(--color-mix-1) calc(1000000% * (1 - var(--color-mix)))
+	);
+}
